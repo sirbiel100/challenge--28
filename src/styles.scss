@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --Violet: #674baf;
+    --Soft_Magenta: #e882e8;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+html{
+    max-width: 100vw;
+    max-width: 100svw;
+}
+
+
+body{
+    min-height: 100vh;
+    min-height: 100svh;
+    --bg-url: url("/bg-mobile.svg");
+    background: var(--bg-url) no-repeat;
+    background-size: contain;
+    background-color: var(--Violet);
+    background-position: top 0 left 50%;
+    padding: 2em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+}
+
+p, button{
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (min-width: 75em) {
+    body{
+        padding: 2em 4em;
+        --bg-url: url("/bg-desktop.svg");
+        background-position: top 0 left 0;
+    }
+}
