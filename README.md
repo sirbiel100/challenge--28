@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/huddle-landing-page-angular-and-scss-BJTdmghMNo)
-- Live Site URL: [](https://challenge-28.vercel.app/)
+- Solution URL: [Visit](https://www.frontendmentor.io/solutions/huddle-landing-page-angular-and-scss-BJTdmghMNo)
+- Live Site URL: [Visit](https://challenge-28.vercel.app/)
 
 ## My process
 
